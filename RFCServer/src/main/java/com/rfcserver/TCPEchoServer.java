@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.net.*;
 
 /*
- * RFC862
+ * RFC862 TCP Echo Server
  */
 public class TCPEchoServer extends Thread {
 	public int port = 7;

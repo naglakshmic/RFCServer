@@ -5,7 +5,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 /*
- * RFC867
+ * RFC867 UDP Daytime Server
  */
 public class DayTimeServer extends Thread {
 	public int port = 13;

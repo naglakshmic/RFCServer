@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /*
- * RFC867
+ * RFC867 TCP Day Time Server
  */
 public class TCPDayTimeServer extends Thread {
 	public int port = 13;

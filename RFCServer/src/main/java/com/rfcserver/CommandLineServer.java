@@ -68,12 +68,7 @@ public class CommandLineServer {
 				
 		// SIGINT implementation
 	    try {
-	        Runtime.getRuntime().addShutdownHook(new ManageShutDown(echoServer, 
-	        														tcpEchoServer, 
-	        														timeServer, 
-	        														tcpTimeServer, 
-	        														dayTimeServer, 
-	        														tcpDayTimeServer));
+	        Runtime.getRuntime().addShutdownHook(new ManageShutDown( echoServer, tcpEchoServer, timeServer, tcpTimeServer, dayTimeServer, tcpDayTimeServer));
 	        System.out.println("Listening for SIGINT");
 	    } catch (Throwable t) {
 	        System.out.println("Could not add SIGINT listner");

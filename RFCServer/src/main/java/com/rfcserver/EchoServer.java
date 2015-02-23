@@ -5,7 +5,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 /*
- * RFC862
+ * RFC862 UDP Echo Server
  */
 public class EchoServer extends Thread {
 	public int port = 7;

@@ -8,7 +8,7 @@ import java.nio.ByteOrder;
 import java.nio.channels.DatagramChannel;
 
 /*
- * RFC868
+ * RFC868 UDP Time Server
  */
 public class TimeServer extends Thread {
 	public int port = 37;

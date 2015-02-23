@@ -4,7 +4,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /*
- * RFC868
+ * RFC868 TCP Time Server
  */
 public class TCPTimeServer extends Thread {
 	public int port = 37;
